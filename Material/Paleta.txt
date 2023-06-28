@@ -1,6 +1,0 @@
-/* CSS HEX */
---van-dyke: #553d36ff;
---rosy-brown: #c2948aff;
---eggplant: #684a52ff;
---isabelline: #f6f0edff;
---khaki: #bbb193ff;
