@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <header class="text-center py-4">
+    <img src="/img/Logo.png" alt="Logo" height="45px">
+  </header>
+
+  <!-- Banner -->
+  <section class="banner text-white text-center py-5">
+    <div class="container">
+      <button class="btn_banner">Encontranos</button>
+    </div>
+  </section>
+
+  <!-- Sección cafés -->
+  <section class="section_cafes py-5">
+    <div class="container">
+      <h2>Nuestros cafés</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/Productos/Americano_edit.png">
+            <div class="productos_caption">
+              <h3>Subtítulo de la imagen 1</h3>
+              <p>Párrafo de la imagen 1</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Productos/Cappuccino_edit.png">
+            <div class="productos_caption">
+              <h3>Subtítulo de la imagen 1</h3>
+              <p>Párrafo de la imagen 1</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Productos/Americano_edit.png">
+            <div class="productos_caption">
+              <h3>Subtítulo de la imagen 1</h3>
+              <p>Párrafo de la imagen 1</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="mt-4">Descubre una experiencia sensorial incomparable con nuestra exquisita selección de cafés. En Java Caffé, te sumergirás en un mundo de aromas cautivadores y sabores intensos, donde cada taza cuenta una historia única.</p>
+    </div>
+  </section>
+
+  <!-- Sección botonera -->
+  <section class="section_botonera py-5">
+    <div class="container text-center">
+      <h2>Lorem ipsum</h2>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <button class="btn">Botón 1</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn">Botón 2</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn">Botón 3</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn">Botón 4</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección con galería de confesionales -->
+  <section class="section_confesionales py-5">
+    <div class="container">
+      <h2>Título de la sección</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <img src="confesional1.jpg" class="img-fluid" alt="Confesional 1">
+          <p>Párrafo del confesional 1</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="confesional2.jpg" class="img-fluid" alt="Confesional 2">
+          <p>Párrafo del confesional 2</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="confesional3.jpg" class="img-fluid" alt="Confesional 3">
+          <p>Párrafo del confesional 3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="py-4">
+    <div class="container">
+      <p>Derechos reservados &copy; 2023</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    spaceBetween: 0,
+    autoplay: {
+      delay: 100000000000000,
+    },
+  });
+</script>
